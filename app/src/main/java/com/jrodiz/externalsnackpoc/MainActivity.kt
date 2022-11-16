@@ -7,7 +7,9 @@ import androidx.navigation.findNavController
 import androidx.navigation.ui.AppBarConfiguration
 import androidx.navigation.ui.setupActionBarWithNavController
 import androidx.navigation.ui.setupWithNavController
+import com.google.android.material.snackbar.Snackbar
 import com.jrodiz.externalsnackpoc.databinding.ActivityMainBinding
+import com.jrodiz.snacklib.Greeting
 
 class MainActivity : AppCompatActivity() {
 
@@ -31,5 +33,6 @@ class MainActivity : AppCompatActivity() {
         )
         setupActionBarWithNavController(navController, appBarConfiguration)
         navView.setupWithNavController(navController)
+        Snackbar.make(binding.root, Greeting().greeting, Snackbar.LENGTH_LONG).show()
     }
 }
