@@ -1,3 +1,3 @@
 package com.jrodiz.snacklib
 
-data class Greeting(val greeting: String = "Hola tú,!")
+data class Greeting(val greeting: String = "Hola tú, 2!")

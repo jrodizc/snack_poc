@@ -1,4 +1,4 @@
-package com.jrodiz.externalsnackpoc.ui.dashboard
+package com.jrodiz.snacklib.ui.dashboard
 
 import android.os.Bundle
 import android.view.LayoutInflater
@@ -7,7 +7,7 @@ import android.view.ViewGroup
 import android.widget.TextView
 import androidx.fragment.app.Fragment
 import androidx.lifecycle.ViewModelProvider
-import com.jrodiz.externalsnackpoc.databinding.FragmentDashboardBinding
+import com.jrodiz.snacklib.databinding.FragmentDashboardBinding
 
 class DashboardFragment : Fragment() {
 
