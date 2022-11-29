@@ -1,0 +1,126 @@
+[
+    {
+        "merged": "/Users/42774/AndroidProjects/ExternalSnackPOC/snacklib/presentation/build/intermediates/merged_res/release/anim/abc_tooltip_exit.xml",
+        "source": "/Users/42774/.gradle/caches/transforms-3/dd70030620e23d46a102dda7d3b4dd09/transformed/appcompat-1.5.1/res/anim/abc_tooltip_exit.xml"
+    },
+    {
+        "merged": "/Users/42774/AndroidProjects/ExternalSnackPOC/snacklib/presentation/build/intermediates/merged_res/release/anim/abc_slide_in_top.xml",
+        "source": "/Users/42774/.gradle/caches/transforms-3/dd70030620e23d46a102dda7d3b4dd09/transformed/appcompat-1.5.1/res/anim/abc_slide_in_top.xml"
+    },
+    {
+        "merged": "/Users/42774/AndroidProjects/ExternalSnackPOC/snacklib/presentation/build/intermediates/merged_res/release/anim/linear_indeterminate_line1_tail_interpolator.xml",
+        "source": "/Users/42774/.gradle/caches/transforms-3/3f94c35cd405313dc0b1727bdc1f528b/transformed/material-1.7.0/res/anim/linear_indeterminate_line1_tail_interpolator.xml"
+    },
+    {
+        "merged": "/Users/42774/AndroidProjects/ExternalSnackPOC/snacklib/presentation/build/intermediates/merged_res/release/anim/abc_shrink_fade_out_from_bottom.xml",
+        "source": "/Users/42774/.gradle/caches/transforms-3/dd70030620e23d46a102dda7d3b4dd09/transformed/appcompat-1.5.1/res/anim/abc_shrink_fade_out_from_bottom.xml"
+    },
+    {
+        "merged": "/Users/42774/AndroidProjects/ExternalSnackPOC/snacklib/presentation/build/intermediates/merged_res/release/anim/btn_checkbox_to_unchecked_icon_null_animation.xml",
+        "source": "/Users/42774/.gradle/caches/transforms-3/dd70030620e23d46a102dda7d3b4dd09/transformed/appcompat-1.5.1/res/anim/btn_checkbox_to_unchecked_icon_null_animation.xml"
+    },
+    {
+        "merged": "/Users/42774/AndroidProjects/ExternalSnackPOC/snacklib/presentation/build/intermediates/merged_res/release/anim/abc_tooltip_enter.xml",
+        "source": "/Users/42774/.gradle/caches/transforms-3/dd70030620e23d46a102dda7d3b4dd09/transformed/appcompat-1.5.1/res/anim/abc_tooltip_enter.xml"
+    },
+    {
+        "merged": "/Users/42774/AndroidProjects/ExternalSnackPOC/snacklib/presentation/build/intermediates/merged_res/release/anim/btn_radio_to_off_mtrl_ring_outer_path_animation.xml",
+        "source": "/Users/42774/.gradle/caches/transforms-3/dd70030620e23d46a102dda7d3b4dd09/transformed/appcompat-1.5.1/res/anim/btn_radio_to_off_mtrl_ring_outer_path_animation.xml"
+    },
+    {
+        "merged": "/Users/42774/AndroidProjects/ExternalSnackPOC/snacklib/presentation/build/intermediates/merged_res/release/anim/abc_popup_exit.xml",
+        "source": "/Users/42774/.gradle/caches/transforms-3/dd70030620e23d46a102dda7d3b4dd09/transformed/appcompat-1.5.1/res/anim/abc_popup_exit.xml"
+    },
+    {
+        "merged": "/Users/42774/AndroidProjects/ExternalSnackPOC/snacklib/presentation/build/intermediates/merged_res/release/anim/abc_slide_in_bottom.xml",
+        "source": "/Users/42774/.gradle/caches/transforms-3/dd70030620e23d46a102dda7d3b4dd09/transformed/appcompat-1.5.1/res/anim/abc_slide_in_bottom.xml"
+    },
+    {
+        "merged": "/Users/42774/AndroidProjects/ExternalSnackPOC/snacklib/presentation/build/intermediates/merged_res/release/anim/design_snackbar_out.xml",
+        "source": "/Users/42774/.gradle/caches/transforms-3/3f94c35cd405313dc0b1727bdc1f528b/transformed/material-1.7.0/res/anim/design_snackbar_out.xml"
+    },
+    {
+        "merged": "/Users/42774/AndroidProjects/ExternalSnackPOC/snacklib/presentation/build/intermediates/merged_res/release/anim/btn_checkbox_to_unchecked_box_inner_merged_animation.xml",
+        "source": "/Users/42774/.gradle/caches/transforms-3/dd70030620e23d46a102dda7d3b4dd09/transformed/appcompat-1.5.1/res/anim/btn_checkbox_to_unchecked_box_inner_merged_animation.xml"
+    },
+    {
+        "merged": "/Users/42774/AndroidProjects/ExternalSnackPOC/snacklib/presentation/build/intermediates/merged_res/release/anim/btn_checkbox_to_checked_icon_null_animation.xml",
+        "source": "/Users/42774/.gradle/caches/transforms-3/dd70030620e23d46a102dda7d3b4dd09/transformed/appcompat-1.5.1/res/anim/btn_checkbox_to_checked_icon_null_animation.xml"
+    },
+    {
+        "merged": "/Users/42774/AndroidProjects/ExternalSnackPOC/snacklib/presentation/build/intermediates/merged_res/release/anim/abc_grow_fade_in_from_bottom.xml",
+        "source": "/Users/42774/.gradle/caches/transforms-3/dd70030620e23d46a102dda7d3b4dd09/transformed/appcompat-1.5.1/res/anim/abc_grow_fade_in_from_bottom.xml"
+    },
+    {
+        "merged": "/Users/42774/AndroidProjects/ExternalSnackPOC/snacklib/presentation/build/intermediates/merged_res/release/anim/abc_popup_enter.xml",
+        "source": "/Users/42774/.gradle/caches/transforms-3/dd70030620e23d46a102dda7d3b4dd09/transformed/appcompat-1.5.1/res/anim/abc_popup_enter.xml"
+    },
+    {
+        "merged": "/Users/42774/AndroidProjects/ExternalSnackPOC/snacklib/presentation/build/intermediates/merged_res/release/anim/btn_radio_to_on_mtrl_ring_outer_animation.xml",
+        "source": "/Users/42774/.gradle/caches/transforms-3/dd70030620e23d46a102dda7d3b4dd09/transformed/appcompat-1.5.1/res/anim/btn_radio_to_on_mtrl_ring_outer_animation.xml"
+    },
+    {
+        "merged": "/Users/42774/AndroidProjects/ExternalSnackPOC/snacklib/presentation/build/intermediates/merged_res/release/anim/linear_indeterminate_line2_tail_interpolator.xml",
+        "source": "/Users/42774/.gradle/caches/transforms-3/3f94c35cd405313dc0b1727bdc1f528b/transformed/material-1.7.0/res/anim/linear_indeterminate_line2_tail_interpolator.xml"
+    },
+    {
+        "merged": "/Users/42774/AndroidProjects/ExternalSnackPOC/snacklib/presentation/build/intermediates/merged_res/release/anim/abc_slide_out_bottom.xml",
+        "source": "/Users/42774/.gradle/caches/transforms-3/dd70030620e23d46a102dda7d3b4dd09/transformed/appcompat-1.5.1/res/anim/abc_slide_out_bottom.xml"
+    },
+    {
+        "merged": "/Users/42774/AndroidProjects/ExternalSnackPOC/snacklib/presentation/build/intermediates/merged_res/release/anim/btn_checkbox_to_checked_box_inner_merged_animation.xml",
+        "source": "/Users/42774/.gradle/caches/transforms-3/dd70030620e23d46a102dda7d3b4dd09/transformed/appcompat-1.5.1/res/anim/btn_checkbox_to_checked_box_inner_merged_animation.xml"
+    },
+    {
+        "merged": "/Users/42774/AndroidProjects/ExternalSnackPOC/snacklib/presentation/build/intermediates/merged_res/release/anim/abc_slide_out_top.xml",
+        "source": "/Users/42774/.gradle/caches/transforms-3/dd70030620e23d46a102dda7d3b4dd09/transformed/appcompat-1.5.1/res/anim/abc_slide_out_top.xml"
+    },
+    {
+        "merged": "/Users/42774/AndroidProjects/ExternalSnackPOC/snacklib/presentation/build/intermediates/merged_res/release/anim/mtrl_card_lowers_interpolator.xml",
+        "source": "/Users/42774/.gradle/caches/transforms-3/3f94c35cd405313dc0b1727bdc1f528b/transformed/material-1.7.0/res/anim/mtrl_card_lowers_interpolator.xml"
+    },
+    {
+        "merged": "/Users/42774/AndroidProjects/ExternalSnackPOC/snacklib/presentation/build/intermediates/merged_res/release/anim/linear_indeterminate_line1_head_interpolator.xml",
+        "source": "/Users/42774/.gradle/caches/transforms-3/3f94c35cd405313dc0b1727bdc1f528b/transformed/material-1.7.0/res/anim/linear_indeterminate_line1_head_interpolator.xml"
+    },
+    {
+        "merged": "/Users/42774/AndroidProjects/ExternalSnackPOC/snacklib/presentation/build/intermediates/merged_res/release/anim/btn_checkbox_to_checked_box_outer_merged_animation.xml",
+        "source": "/Users/42774/.gradle/caches/transforms-3/dd70030620e23d46a102dda7d3b4dd09/transformed/appcompat-1.5.1/res/anim/btn_checkbox_to_checked_box_outer_merged_animation.xml"
+    },
+    {
+        "merged": "/Users/42774/AndroidProjects/ExternalSnackPOC/snacklib/presentation/build/intermediates/merged_res/release/anim/linear_indeterminate_line2_head_interpolator.xml",
+        "source": "/Users/42774/.gradle/caches/transforms-3/3f94c35cd405313dc0b1727bdc1f528b/transformed/material-1.7.0/res/anim/linear_indeterminate_line2_head_interpolator.xml"
+    },
+    {
+        "merged": "/Users/42774/AndroidProjects/ExternalSnackPOC/snacklib/presentation/build/intermediates/merged_res/release/anim/abc_fade_out.xml",
+        "source": "/Users/42774/.gradle/caches/transforms-3/dd70030620e23d46a102dda7d3b4dd09/transformed/appcompat-1.5.1/res/anim/abc_fade_out.xml"
+    },
+    {
+        "merged": "/Users/42774/AndroidProjects/ExternalSnackPOC/snacklib/presentation/build/intermediates/merged_res/release/anim/design_snackbar_in.xml",
+        "source": "/Users/42774/.gradle/caches/transforms-3/3f94c35cd405313dc0b1727bdc1f528b/transformed/material-1.7.0/res/anim/design_snackbar_in.xml"
+    },
+    {
+        "merged": "/Users/42774/AndroidProjects/ExternalSnackPOC/snacklib/presentation/build/intermediates/merged_res/release/anim/btn_radio_to_off_mtrl_dot_group_animation.xml",
+        "source": "/Users/42774/.gradle/caches/transforms-3/dd70030620e23d46a102dda7d3b4dd09/transformed/appcompat-1.5.1/res/anim/btn_radio_to_off_mtrl_dot_group_animation.xml"
+    },
+    {
+        "merged": "/Users/42774/AndroidProjects/ExternalSnackPOC/snacklib/presentation/build/intermediates/merged_res/release/anim/abc_fade_in.xml",
+        "source": "/Users/42774/.gradle/caches/transforms-3/dd70030620e23d46a102dda7d3b4dd09/transformed/appcompat-1.5.1/res/anim/abc_fade_in.xml"
+    },
+    {
+        "merged": "/Users/42774/AndroidProjects/ExternalSnackPOC/snacklib/presentation/build/intermediates/merged_res/release/anim/btn_radio_to_on_mtrl_dot_group_animation.xml",
+        "source": "/Users/42774/.gradle/caches/transforms-3/dd70030620e23d46a102dda7d3b4dd09/transformed/appcompat-1.5.1/res/anim/btn_radio_to_on_mtrl_dot_group_animation.xml"
+    },
+    {
+        "merged": "/Users/42774/AndroidProjects/ExternalSnackPOC/snacklib/presentation/build/intermediates/merged_res/release/anim/btn_radio_to_on_mtrl_ring_outer_path_animation.xml",
+        "source": "/Users/42774/.gradle/caches/transforms-3/dd70030620e23d46a102dda7d3b4dd09/transformed/appcompat-1.5.1/res/anim/btn_radio_to_on_mtrl_ring_outer_path_animation.xml"
+    },
+    {
+        "merged": "/Users/42774/AndroidProjects/ExternalSnackPOC/snacklib/presentation/build/intermediates/merged_res/release/anim/btn_radio_to_off_mtrl_ring_outer_animation.xml",
+        "source": "/Users/42774/.gradle/caches/transforms-3/dd70030620e23d46a102dda7d3b4dd09/transformed/appcompat-1.5.1/res/anim/btn_radio_to_off_mtrl_ring_outer_animation.xml"
+    },
+    {
+        "merged": "/Users/42774/AndroidProjects/ExternalSnackPOC/snacklib/presentation/build/intermediates/merged_res/release/anim/btn_checkbox_to_unchecked_check_path_merged_animation.xml",
+        "source": "/Users/42774/.gradle/caches/transforms-3/dd70030620e23d46a102dda7d3b4dd09/transformed/appcompat-1.5.1/res/anim/btn_checkbox_to_unchecked_check_path_merged_animation.xml"
+    }
+]

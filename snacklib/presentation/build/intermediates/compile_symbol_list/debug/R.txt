@@ -1,0 +1,7 @@
+int id text_dashboard 0x0
+int id text_home 0x0
+int id text_notifications 0x0
+int layout example 0x0
+int layout fragment_dashboard 0x0
+int layout fragment_home 0x0
+int layout fragment_notifications 0x0

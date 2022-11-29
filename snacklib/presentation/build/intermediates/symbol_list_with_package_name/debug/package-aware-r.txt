@@ -1,0 +1,8 @@
+com.jrodiz.snacklib
+id text_dashboard
+id text_home
+id text_notifications
+layout example
+layout fragment_dashboard
+layout fragment_home
+layout fragment_notifications

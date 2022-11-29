@@ -1,0 +1,1 @@
+/Users/42774/AndroidProjects/ExternalSnackPOC/snacklib/core/build/classes/kotlin/main/com/jrodiz/core/LibCounter.class:/Users/42774/AndroidProjects/ExternalSnackPOC/snacklib/core/build/classes/kotlin/main/com/jrodiz/core/LibCounterRepository.class
