@@ -1,14 +1,14 @@
 [
     {
-        "merged": "/Users/42774/AndroidProjects/ExternalSnackPOC/snacklib/presentation/build/intermediates/merged_res/release/color-night-v8/material_timepicker_button_stroke.xml",
-        "source": "/Users/42774/.gradle/caches/transforms-3/3f94c35cd405313dc0b1727bdc1f528b/transformed/material-1.7.0/res/color-night-v8/material_timepicker_button_stroke.xml"
+        "merged": "/Users/jrodiz09/AndroidStudioProjects/external/snack_poc/snacklib/presentation/build/intermediates/merged_res/release/color-night-v8/material_timepicker_clockface.xml",
+        "source": "/Users/jrodiz09/.gradle/caches/transforms-3/3f94c35cd405313dc0b1727bdc1f528b/transformed/material-1.7.0/res/color-night-v8/material_timepicker_clockface.xml"
     },
     {
-        "merged": "/Users/42774/AndroidProjects/ExternalSnackPOC/snacklib/presentation/build/intermediates/merged_res/release/color-night-v8/material_timepicker_modebutton_tint.xml",
-        "source": "/Users/42774/.gradle/caches/transforms-3/3f94c35cd405313dc0b1727bdc1f528b/transformed/material-1.7.0/res/color-night-v8/material_timepicker_modebutton_tint.xml"
+        "merged": "/Users/jrodiz09/AndroidStudioProjects/external/snack_poc/snacklib/presentation/build/intermediates/merged_res/release/color-night-v8/material_timepicker_button_stroke.xml",
+        "source": "/Users/jrodiz09/.gradle/caches/transforms-3/3f94c35cd405313dc0b1727bdc1f528b/transformed/material-1.7.0/res/color-night-v8/material_timepicker_button_stroke.xml"
     },
     {
-        "merged": "/Users/42774/AndroidProjects/ExternalSnackPOC/snacklib/presentation/build/intermediates/merged_res/release/color-night-v8/material_timepicker_clockface.xml",
-        "source": "/Users/42774/.gradle/caches/transforms-3/3f94c35cd405313dc0b1727bdc1f528b/transformed/material-1.7.0/res/color-night-v8/material_timepicker_clockface.xml"
+        "merged": "/Users/jrodiz09/AndroidStudioProjects/external/snack_poc/snacklib/presentation/build/intermediates/merged_res/release/color-night-v8/material_timepicker_modebutton_tint.xml",
+        "source": "/Users/jrodiz09/.gradle/caches/transforms-3/3f94c35cd405313dc0b1727bdc1f528b/transformed/material-1.7.0/res/color-night-v8/material_timepicker_modebutton_tint.xml"
     }
 ]

@@ -1,18 +1,18 @@
 [
     {
-        "merged": "/Users/42774/AndroidProjects/ExternalSnackPOC/snacklib/presentation/build/intermediates/merged_res/release/layout-v21/notification_action.xml",
-        "source": "/Users/42774/.gradle/caches/transforms-3/08bdc8530ed8c4237b10a7b6c351e326/transformed/core-1.8.0/res/layout-v21/notification_action.xml"
+        "merged": "/Users/jrodiz09/AndroidStudioProjects/external/snack_poc/snacklib/presentation/build/intermediates/merged_res/release/layout-v21/notification_template_icon_group.xml",
+        "source": "/Users/jrodiz09/.gradle/caches/transforms-3/08bdc8530ed8c4237b10a7b6c351e326/transformed/core-1.8.0/res/layout-v21/notification_template_icon_group.xml"
     },
     {
-        "merged": "/Users/42774/AndroidProjects/ExternalSnackPOC/snacklib/presentation/build/intermediates/merged_res/release/layout-v21/notification_template_custom_big.xml",
-        "source": "/Users/42774/.gradle/caches/transforms-3/08bdc8530ed8c4237b10a7b6c351e326/transformed/core-1.8.0/res/layout-v21/notification_template_custom_big.xml"
+        "merged": "/Users/jrodiz09/AndroidStudioProjects/external/snack_poc/snacklib/presentation/build/intermediates/merged_res/release/layout-v21/notification_action_tombstone.xml",
+        "source": "/Users/jrodiz09/.gradle/caches/transforms-3/08bdc8530ed8c4237b10a7b6c351e326/transformed/core-1.8.0/res/layout-v21/notification_action_tombstone.xml"
     },
     {
-        "merged": "/Users/42774/AndroidProjects/ExternalSnackPOC/snacklib/presentation/build/intermediates/merged_res/release/layout-v21/notification_action_tombstone.xml",
-        "source": "/Users/42774/.gradle/caches/transforms-3/08bdc8530ed8c4237b10a7b6c351e326/transformed/core-1.8.0/res/layout-v21/notification_action_tombstone.xml"
+        "merged": "/Users/jrodiz09/AndroidStudioProjects/external/snack_poc/snacklib/presentation/build/intermediates/merged_res/release/layout-v21/notification_action.xml",
+        "source": "/Users/jrodiz09/.gradle/caches/transforms-3/08bdc8530ed8c4237b10a7b6c351e326/transformed/core-1.8.0/res/layout-v21/notification_action.xml"
     },
     {
-        "merged": "/Users/42774/AndroidProjects/ExternalSnackPOC/snacklib/presentation/build/intermediates/merged_res/release/layout-v21/notification_template_icon_group.xml",
-        "source": "/Users/42774/.gradle/caches/transforms-3/08bdc8530ed8c4237b10a7b6c351e326/transformed/core-1.8.0/res/layout-v21/notification_template_icon_group.xml"
+        "merged": "/Users/jrodiz09/AndroidStudioProjects/external/snack_poc/snacklib/presentation/build/intermediates/merged_res/release/layout-v21/notification_template_custom_big.xml",
+        "source": "/Users/jrodiz09/.gradle/caches/transforms-3/08bdc8530ed8c4237b10a7b6c351e326/transformed/core-1.8.0/res/layout-v21/notification_template_custom_big.xml"
     }
 ]

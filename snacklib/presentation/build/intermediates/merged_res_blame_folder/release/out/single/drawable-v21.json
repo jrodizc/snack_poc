@@ -1,38 +1,38 @@
 [
     {
-        "merged": "/Users/42774/AndroidProjects/ExternalSnackPOC/snacklib/presentation/build/intermediates/merged_res/release/drawable-v21/material_cursor_drawable.xml",
-        "source": "/Users/42774/.gradle/caches/transforms-3/3f94c35cd405313dc0b1727bdc1f528b/transformed/material-1.7.0/res/drawable-v21/material_cursor_drawable.xml"
+        "merged": "/Users/jrodiz09/AndroidStudioProjects/external/snack_poc/snacklib/presentation/build/intermediates/merged_res/release/drawable-v21/material_cursor_drawable.xml",
+        "source": "/Users/jrodiz09/.gradle/caches/transforms-3/3f94c35cd405313dc0b1727bdc1f528b/transformed/material-1.7.0/res/drawable-v21/material_cursor_drawable.xml"
     },
     {
-        "merged": "/Users/42774/AndroidProjects/ExternalSnackPOC/snacklib/presentation/build/intermediates/merged_res/release/drawable-v21/abc_action_bar_item_background_material.xml",
-        "source": "/Users/42774/.gradle/caches/transforms-3/dd70030620e23d46a102dda7d3b4dd09/transformed/appcompat-1.5.1/res/drawable-v21/abc_action_bar_item_background_material.xml"
+        "merged": "/Users/jrodiz09/AndroidStudioProjects/external/snack_poc/snacklib/presentation/build/intermediates/merged_res/release/drawable-v21/abc_list_divider_material.xml",
+        "source": "/Users/jrodiz09/.gradle/caches/transforms-3/dd70030620e23d46a102dda7d3b4dd09/transformed/appcompat-1.5.1/res/drawable-v21/abc_list_divider_material.xml"
     },
     {
-        "merged": "/Users/42774/AndroidProjects/ExternalSnackPOC/snacklib/presentation/build/intermediates/merged_res/release/drawable-v21/abc_list_divider_material.xml",
-        "source": "/Users/42774/.gradle/caches/transforms-3/dd70030620e23d46a102dda7d3b4dd09/transformed/appcompat-1.5.1/res/drawable-v21/abc_list_divider_material.xml"
+        "merged": "/Users/jrodiz09/AndroidStudioProjects/external/snack_poc/snacklib/presentation/build/intermediates/merged_res/release/drawable-v21/mtrl_navigation_bar_item_background.xml",
+        "source": "/Users/jrodiz09/.gradle/caches/transforms-3/3f94c35cd405313dc0b1727bdc1f528b/transformed/material-1.7.0/res/drawable-v21/mtrl_navigation_bar_item_background.xml"
     },
     {
-        "merged": "/Users/42774/AndroidProjects/ExternalSnackPOC/snacklib/presentation/build/intermediates/merged_res/release/drawable-v21/mtrl_navigation_bar_item_background.xml",
-        "source": "/Users/42774/.gradle/caches/transforms-3/3f94c35cd405313dc0b1727bdc1f528b/transformed/material-1.7.0/res/drawable-v21/mtrl_navigation_bar_item_background.xml"
+        "merged": "/Users/jrodiz09/AndroidStudioProjects/external/snack_poc/snacklib/presentation/build/intermediates/merged_res/release/drawable-v21/abc_btn_colored_material.xml",
+        "source": "/Users/jrodiz09/.gradle/caches/transforms-3/dd70030620e23d46a102dda7d3b4dd09/transformed/appcompat-1.5.1/res/drawable-v21/abc_btn_colored_material.xml"
     },
     {
-        "merged": "/Users/42774/AndroidProjects/ExternalSnackPOC/snacklib/presentation/build/intermediates/merged_res/release/drawable-v21/abc_dialog_material_background.xml",
-        "source": "/Users/42774/.gradle/caches/transforms-3/dd70030620e23d46a102dda7d3b4dd09/transformed/appcompat-1.5.1/res/drawable-v21/abc_dialog_material_background.xml"
+        "merged": "/Users/jrodiz09/AndroidStudioProjects/external/snack_poc/snacklib/presentation/build/intermediates/merged_res/release/drawable-v21/abc_action_bar_item_background_material.xml",
+        "source": "/Users/jrodiz09/.gradle/caches/transforms-3/dd70030620e23d46a102dda7d3b4dd09/transformed/appcompat-1.5.1/res/drawable-v21/abc_action_bar_item_background_material.xml"
     },
     {
-        "merged": "/Users/42774/AndroidProjects/ExternalSnackPOC/snacklib/presentation/build/intermediates/merged_res/release/drawable-v21/notification_action_background.xml",
-        "source": "/Users/42774/.gradle/caches/transforms-3/08bdc8530ed8c4237b10a7b6c351e326/transformed/core-1.8.0/res/drawable-v21/notification_action_background.xml"
+        "merged": "/Users/jrodiz09/AndroidStudioProjects/external/snack_poc/snacklib/presentation/build/intermediates/merged_res/release/drawable-v21/abc_edit_text_material.xml",
+        "source": "/Users/jrodiz09/.gradle/caches/transforms-3/dd70030620e23d46a102dda7d3b4dd09/transformed/appcompat-1.5.1/res/drawable-v21/abc_edit_text_material.xml"
     },
     {
-        "merged": "/Users/42774/AndroidProjects/ExternalSnackPOC/snacklib/presentation/build/intermediates/merged_res/release/drawable-v21/abc_btn_colored_material.xml",
-        "source": "/Users/42774/.gradle/caches/transforms-3/dd70030620e23d46a102dda7d3b4dd09/transformed/appcompat-1.5.1/res/drawable-v21/abc_btn_colored_material.xml"
+        "merged": "/Users/jrodiz09/AndroidStudioProjects/external/snack_poc/snacklib/presentation/build/intermediates/merged_res/release/drawable-v21/abc_dialog_material_background.xml",
+        "source": "/Users/jrodiz09/.gradle/caches/transforms-3/dd70030620e23d46a102dda7d3b4dd09/transformed/appcompat-1.5.1/res/drawable-v21/abc_dialog_material_background.xml"
     },
     {
-        "merged": "/Users/42774/AndroidProjects/ExternalSnackPOC/snacklib/presentation/build/intermediates/merged_res/release/drawable-v21/abc_edit_text_material.xml",
-        "source": "/Users/42774/.gradle/caches/transforms-3/dd70030620e23d46a102dda7d3b4dd09/transformed/appcompat-1.5.1/res/drawable-v21/abc_edit_text_material.xml"
+        "merged": "/Users/jrodiz09/AndroidStudioProjects/external/snack_poc/snacklib/presentation/build/intermediates/merged_res/release/drawable-v21/m3_tabs_background.xml",
+        "source": "/Users/jrodiz09/.gradle/caches/transforms-3/3f94c35cd405313dc0b1727bdc1f528b/transformed/material-1.7.0/res/drawable-v21/m3_tabs_background.xml"
     },
     {
-        "merged": "/Users/42774/AndroidProjects/ExternalSnackPOC/snacklib/presentation/build/intermediates/merged_res/release/drawable-v21/m3_tabs_background.xml",
-        "source": "/Users/42774/.gradle/caches/transforms-3/3f94c35cd405313dc0b1727bdc1f528b/transformed/material-1.7.0/res/drawable-v21/m3_tabs_background.xml"
+        "merged": "/Users/jrodiz09/AndroidStudioProjects/external/snack_poc/snacklib/presentation/build/intermediates/merged_res/release/drawable-v21/notification_action_background.xml",
+        "source": "/Users/jrodiz09/.gradle/caches/transforms-3/08bdc8530ed8c4237b10a7b6c351e326/transformed/core-1.8.0/res/drawable-v21/notification_action_background.xml"
     }
 ]

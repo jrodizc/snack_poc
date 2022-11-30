@@ -37,7 +37,7 @@ def githubProperties = new Properties()
 githubProperties.load(new FileInputStream(rootProject.file("github.properties")))
 
 def getVersionName = { ->
-    return "1.0.4"
+    return "1.1.5"
 }
 
 def getLayerId = { ->
@@ -45,7 +45,8 @@ def getLayerId = { ->
 }
 
 def getArtifactId = { ->
-    return "snacklib${getLayerId()}"
+    //return "snacklib-${getLayerId()}"
+    return "snacklib-${getLayerId()}"
 }
 publishing {
     publications {
@@ -75,8 +76,6 @@ publishing {
 }
 
 dependencies {
-
-
     implementation 'androidx.core:core-ktx:1.7.0'
     implementation 'androidx.appcompat:appcompat:1.5.1'
     implementation 'com.google.android.material:material:1.7.0'

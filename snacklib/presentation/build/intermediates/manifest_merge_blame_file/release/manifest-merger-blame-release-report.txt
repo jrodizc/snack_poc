@@ -4,8 +4,8 @@
 4
 5    <uses-sdk
 6        android:minSdkVersion="21"
-6-->/Users/42774/AndroidProjects/ExternalSnackPOC/snacklib/presentation/src/main/AndroidManifest.xml
+6-->/Users/jrodiz09/AndroidStudioProjects/external/snack_poc/snacklib/presentation/src/main/AndroidManifest.xml
 7        android:targetSdkVersion="32" />
-7-->/Users/42774/AndroidProjects/ExternalSnackPOC/snacklib/presentation/src/main/AndroidManifest.xml
+7-->/Users/jrodiz09/AndroidStudioProjects/external/snack_poc/snacklib/presentation/src/main/AndroidManifest.xml
 8
 9</manifest>
