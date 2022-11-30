@@ -45,3 +45,6 @@ dependencyResolutionManagement {
 rootProject.name = "ExternalSnackPOC"
 include ':app'
 include ':snacklib:presentation'
+include ':snacklib:core'
+include ':snacklib:data'
+include ':snacklib:domain'

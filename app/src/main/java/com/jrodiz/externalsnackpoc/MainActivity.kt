@@ -1,22 +1,35 @@
 package com.jrodiz.externalsnackpoc
 
 import android.os.Bundle
-import com.google.android.material.bottomnavigation.BottomNavigationView
 import androidx.appcompat.app.AppCompatActivity
 import androidx.navigation.findNavController
 import androidx.navigation.ui.AppBarConfiguration
 import androidx.navigation.ui.setupActionBarWithNavController
 import androidx.navigation.ui.setupWithNavController
+import com.google.android.material.bottomnavigation.BottomNavigationView
 import com.google.android.material.snackbar.Snackbar
+import com.jrodiz.core.GreetingFetcher
 import com.jrodiz.externalsnackpoc.databinding.ActivityMainBinding
-import com.jrodiz.snacklib.Greeting
+import javax.inject.Inject
+
+class MainViewModel @Inject constructor(
+    private val greetingFetcher: GreetingFetcher
+) {
+    val greeting: String
+        get() = greetingFetcher.invoke()
+}
 
 class MainActivity : AppCompatActivity() {
 
     private lateinit var binding: ActivityMainBinding
 
+    @Inject
+    lateinit var mainViewModel: MainViewModel
+
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
+        (applicationContext as AndroidApplication).appComponent.inject(this)
+
 
         binding = ActivityMainBinding.inflate(layoutInflater)
         setContentView(binding.root)
@@ -33,6 +46,6 @@ class MainActivity : AppCompatActivity() {
         )
         setupActionBarWithNavController(navController, appBarConfiguration)
         navView.setupWithNavController(navController)
-        Snackbar.make(binding.root, Greeting().greeting, Snackbar.LENGTH_LONG).show()
+        Snackbar.make(binding.root, mainViewModel.greeting, Snackbar.LENGTH_LONG).show()
     }
 }

@@ -1,1 +1,1 @@
-/Users/42774/AndroidProjects/ExternalSnackPOC/snacklib/core/build/classes/kotlin/main/com/jrodiz/core/LibCounter.class:/Users/42774/AndroidProjects/ExternalSnackPOC/snacklib/core/build/classes/kotlin/main/com/jrodiz/core/LibCounterRepository.class
+/Users/jrodiz09/AndroidStudioProjects/external/snack_poc/snacklib/core/build/classes/kotlin/main/com/jrodiz/core/GreetingFetcher.class:/Users/jrodiz09/AndroidStudioProjects/external/snack_poc/snacklib/core/build/classes/kotlin/main/com/jrodiz/core/GreetingRepository.class
