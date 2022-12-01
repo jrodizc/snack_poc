@@ -44,10 +44,9 @@ android {
 }
 
 dependencies {
-    implementation project(':snacklib:presentation')
-
-    //implementation 'com.jrodiz.snacks:snacklib-presentation:1.1.7'
-    //implementation 'com.github.jrodizc:snack_poc:fd47f2ec31'
+    //implementation project(':snacklib:presentation')
+    //implementation 'com.github.jrodizc.snack_poc:snacklib-presentation:1.2.0'
+    implementation 'com.github.jrodizc:snack_poc:1.2.0'
 
     implementation 'androidx.core:core-ktx:1.7.0'
     implementation 'androidx.appcompat:appcompat:1.5.1'

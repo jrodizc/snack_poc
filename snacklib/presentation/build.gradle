@@ -6,11 +6,11 @@ plugins {
 }
 
 android {
-    compileSdk 32
+    compileSdk 31
 
     defaultConfig {
         minSdk 21
-        targetSdk 32
+        targetSdk 31
 
         testInstrumentationRunner "androidx.test.runner.AndroidJUnitRunner"
         consumerProguardFiles "consumer-rules.pro"
@@ -63,7 +63,7 @@ publishing {
         release(MavenPublication) {
             groupId = 'com.jrodiz.snacks'
             artifactId = 'snacklib-presentation'
-            version = '1.2.0'
+            version = '1.2.1'
 
             afterEvaluate {
                 from components.release
