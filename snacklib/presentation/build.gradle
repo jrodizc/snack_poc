@@ -42,9 +42,9 @@ dependencies {
     androidTestImplementation 'androidx.test.ext:junit:1.1.4'
     androidTestImplementation 'androidx.test.espresso:espresso-core:3.5.0'
 
-    implementation project(':snacklib:core')
-//    implementation project(':snacklib:data')
-//    implementation project(':snacklib:domain')
+    api project(':snacklib:core')
+    api project(':snacklib:data')
+    api project(':snacklib:domain')
 
     def daggerVersion = "2.41"
     implementation "com.google.dagger:dagger:$daggerVersion"

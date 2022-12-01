@@ -36,9 +36,6 @@ android {
 }
 
 dependencies {
-    implementation project(':snacklib:core')
-    implementation project(':snacklib:data')
-    implementation project(':snacklib:domain')
     implementation project(':snacklib:presentation')
 
     //implementation 'com.jrodiz.snacks:snacklib-presentation:1.1.5'

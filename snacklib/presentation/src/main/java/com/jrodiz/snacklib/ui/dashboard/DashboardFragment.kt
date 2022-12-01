@@ -8,6 +8,8 @@ import android.widget.TextView
 import androidx.fragment.app.Fragment
 import androidx.lifecycle.ViewModelProvider
 import com.jrodiz.snacklib.databinding.FragmentDashboardBinding
+import com.jrodiz.snacklib.di.SnackLibPresentationComponent
+import com.jrodiz.snacklib.di.SnackLibPresentationComponentProvider
 import javax.inject.Inject
 
 class DashboardFragment : Fragment() {
@@ -18,6 +20,9 @@ class DashboardFragment : Fragment() {
     // onDestroyView.
     private val binding get() = _binding!!
 
+
+    lateinit var snackLibPresentationComponent: SnackLibPresentationComponent
+
     @Inject
     lateinit var dashboardViewModel: DashboardViewModel
 
@@ -27,12 +32,16 @@ class DashboardFragment : Fragment() {
         savedInstanceState: Bundle?
     ): View {
 
+        snackLibPresentationComponent = (requireContext().applicationContext as SnackLibPresentationComponentProvider)
+            .getSnackLibPresentationComponent()
+        snackLibPresentationComponent.inject(this)
+
         _binding = FragmentDashboardBinding.inflate(inflater, container, false)
         val root: View = binding.root
 
         val textView: TextView = binding.textDashboard
         dashboardViewModel.text.observe(viewLifecycleOwner) {
-            textView.text = it
+            textView.text = "$it = ${dashboardViewModel.greeting}"
         }
         return root
     }
