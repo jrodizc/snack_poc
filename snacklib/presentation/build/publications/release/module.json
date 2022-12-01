@@ -1,0 +1,174 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "group": "com.jrodiz.snacks",
+    "module": "snacklib-presentation",
+    "version": "1.1.7",
+    "attributes": {
+      "org.gradle.status": "release"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "7.2"
+    }
+  },
+  "variants": [
+    {
+      "name": "releaseVariantReleaseApiPublication",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.libraryelements": "aar",
+        "org.gradle.usage": "java-api"
+      },
+      "dependencies": [
+        {
+          "group": "ExternalSnackPOC.snacklib",
+          "module": "core",
+          "version": {
+            "requires": "unspecified"
+          }
+        },
+        {
+          "group": "ExternalSnackPOC.snacklib",
+          "module": "data",
+          "version": {
+            "requires": "unspecified"
+          }
+        },
+        {
+          "group": "ExternalSnackPOC.snacklib",
+          "module": "domain",
+          "version": {
+            "requires": "unspecified"
+          }
+        },
+        {
+          "group": "androidx.databinding",
+          "module": "viewbinding",
+          "version": {
+            "requires": "7.1.2"
+          }
+        },
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-stdlib-jdk8",
+          "version": {
+            "requires": "1.6.21"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "snacklib-presentation-1.1.7.aar",
+          "url": "snacklib-presentation-1.1.7.aar",
+          "size": 22079,
+          "sha512": "7eee217f3e1969da5311e193a2fbdb883d5fb40ea45a05585dc5329ca2e800d3337d0c37fe0cb31800ab5d16c56acbc67d4dc5d154ea0e6cf205e56aec0cb7c3",
+          "sha256": "b2222c1f0503b39c8f7cb202b2a33bb86f72aec60442f4adde8b52fbb53791e2",
+          "sha1": "8344ea3d02a10fbebb541e423dee04e43069242e",
+          "md5": "90766c61dfbf21615e2f912b4c37f683"
+        }
+      ]
+    },
+    {
+      "name": "releaseVariantReleaseRuntimePublication",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.libraryelements": "aar",
+        "org.gradle.usage": "java-runtime"
+      },
+      "dependencies": [
+        {
+          "group": "ExternalSnackPOC.snacklib",
+          "module": "core",
+          "version": {
+            "requires": "unspecified"
+          }
+        },
+        {
+          "group": "ExternalSnackPOC.snacklib",
+          "module": "data",
+          "version": {
+            "requires": "unspecified"
+          }
+        },
+        {
+          "group": "ExternalSnackPOC.snacklib",
+          "module": "domain",
+          "version": {
+            "requires": "unspecified"
+          }
+        },
+        {
+          "group": "androidx.databinding",
+          "module": "viewbinding",
+          "version": {
+            "requires": "7.1.2"
+          }
+        },
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-stdlib-jdk8",
+          "version": {
+            "requires": "1.6.21"
+          }
+        },
+        {
+          "group": "androidx.core",
+          "module": "core-ktx",
+          "version": {
+            "requires": "1.7.0"
+          }
+        },
+        {
+          "group": "androidx.appcompat",
+          "module": "appcompat",
+          "version": {
+            "requires": "1.5.1"
+          }
+        },
+        {
+          "group": "com.google.android.material",
+          "module": "material",
+          "version": {
+            "requires": "1.7.0"
+          }
+        },
+        {
+          "group": "com.google.dagger",
+          "module": "dagger",
+          "version": {
+            "requires": "2.41"
+          }
+        },
+        {
+          "group": "com.google.dagger",
+          "module": "dagger-android",
+          "version": {
+            "requires": "2.41"
+          }
+        },
+        {
+          "group": "com.google.dagger",
+          "module": "dagger-android-support",
+          "version": {
+            "requires": "2.41"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "snacklib-presentation-1.1.7.aar",
+          "url": "snacklib-presentation-1.1.7.aar",
+          "size": 22079,
+          "sha512": "7eee217f3e1969da5311e193a2fbdb883d5fb40ea45a05585dc5329ca2e800d3337d0c37fe0cb31800ab5d16c56acbc67d4dc5d154ea0e6cf205e56aec0cb7c3",
+          "sha256": "b2222c1f0503b39c8f7cb202b2a33bb86f72aec60442f4adde8b52fbb53791e2",
+          "sha1": "8344ea3d02a10fbebb541e423dee04e43069242e",
+          "md5": "90766c61dfbf21615e2f912b4c37f683"
+        }
+      ]
+    }
+  ]
+}

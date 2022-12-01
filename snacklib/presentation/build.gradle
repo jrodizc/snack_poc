@@ -54,44 +54,37 @@ dependencies {
     kapt "com.google.dagger:dagger-android-processor:$daggerVersion"
 }
 
+afterEvaluate {
+    publishing {
+        publications {
+            // Creates a Maven publication called "release".
+            release(MavenPublication) {
+                // Applies the component for the release build variant.
+                from components.release
 
-def githubProperties = new Properties()
-githubProperties.load(new FileInputStream(rootProject.file("github.properties")))
+                groupId = 'com.jrodiz.snacks'
+                artifactId = 'snacklib-presentation'
+                version = '1.1.7'
+            }
+            // Creates a Maven publication called “debug”.
+            debug(MavenPublication) {
+                // Applies the component for the debug build variant.
+                from components.debug
 
-def getVersionName = { ->
-    return "1.1.5"
-}
-
-def getLayerId = { ->
-    return "presentation"
-}
-
-def getArtifactId = { ->
-    //return "snacklib-${getLayerId()}"
-    return "snacklib-${getLayerId()}"
-}
-publishing {
-    publications {
-        bar(MavenPublication) {
-            groupId 'com.jrodiz.snacks' // Replace with group ID
-            artifactId getArtifactId()
-            version getVersionName()
-            artifact("$buildDir/outputs/aar/${getLayerId()}-release.aar")
+                groupId = 'com.jrodiz.snacks'
+                artifactId = 'snacklib-presentation'
+                version = '1.1.7'
+            }
         }
-    }
-
-    repositories {
-        maven {
-            name = "GitHubPackages"
-            /** Configure path of your package repository on Github
-             *  Replace GITHUB_USERID with your/organisation Github userID and REPOSITORY with the repository name on GitHub
-             */
-            url = uri("https://maven.pkg.github.com/jrodizc/snack_poc")
-
-            credentials {
-                /**Create github.properties in root project folder file with gpr.usr=GITHUB_USER_ID  & gpr.key=PERSONAL_ACCESS_TOKEN**/
-                username = githubProperties['gpr.usr'] ?: System.getenv("GPR_USER")
-                password = githubProperties['gpr.key'] ?: System.getenv("GPR_API_KEY")
+        // This section gets around the issue described here:
+        // https://discuss.gradle.org/t/maven-publish-plugin-generated-pom-making-dependency-scope-runtime/7494/3
+        publications.all {
+            pom.withXml {
+                asNode().dependencies.'*'.findAll() {
+                    it.scope.text() == 'runtime' && project.configurations.implementation.allDependencies.find { dep ->
+                        dep.name == it.artifactId.text()
+                    }
+                }.each { it.scope*.value = 'compile'}
             }
         }
     }
