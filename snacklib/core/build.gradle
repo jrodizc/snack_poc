@@ -18,3 +18,18 @@ java {
     sourceCompatibility = JavaVersion.VERSION_1_7
     targetCompatibility = JavaVersion.VERSION_1_7
 }
+
+afterEvaluate {
+    publishing {
+        publications {
+            mavenJava(MavenPublication) {
+                // Applies the component for the release build variant.
+                from components.java
+
+                groupId = 'com.jrodiz.snacks'
+                artifactId = 'snacklib-core'
+                version = '1.0.0'
+            }
+        }
+    }
+}

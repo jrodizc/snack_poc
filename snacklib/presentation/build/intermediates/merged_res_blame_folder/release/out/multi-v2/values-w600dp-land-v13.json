@@ -1,0 +1,34 @@
+{
+    "logs": [
+        {
+            "outputFile": "/Users/jrodiz09/AndroidStudioProjects/external/snack_poc/snacklib/presentation/build/intermediates/merged_res/release/values-w600dp-land-v13/values-w600dp-land-v13.xml",
+            "map": [
+                {
+                    "source": "/Users/jrodiz09/.gradle/caches/transforms-3/3f94c35cd405313dc0b1727bdc1f528b/transformed/material-1.7.0/res/values-w600dp-land-v13/values-w600dp-land-v13.xml",
+                    "from": {
+                        "startLines": "2",
+                        "startColumns": "4",
+                        "startOffsets": "55",
+                        "endColumns": "54",
+                        "endOffsets": "105"
+                    }
+                }
+            ]
+        },
+        {
+            "outputFile": "/Users/jrodiz09/AndroidStudioProjects/external/snack_poc/snacklib/presentation/build/intermediates/incremental/mergeReleaseResources/merged.dir/values-w600dp-land-v13/values-w600dp-land-v13.xml",
+            "map": [
+                {
+                    "source": "/Users/jrodiz09/.gradle/caches/transforms-3/3f94c35cd405313dc0b1727bdc1f528b/transformed/material-1.7.0/res/values-w600dp-land-v13/values-w600dp-land-v13.xml",
+                    "from": {
+                        "startLines": "2",
+                        "startColumns": "4",
+                        "startOffsets": "55",
+                        "endColumns": "54",
+                        "endOffsets": "105"
+                    }
+                }
+            ]
+        }
+    ]
+}

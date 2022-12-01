@@ -43,6 +43,7 @@ dependencies {
     androidTestImplementation 'androidx.test.espresso:espresso-core:3.5.0'
 
     api project(':snacklib:core')
+    //implementation 'com.jrodiz.snacks:snacklib-core:1.0.0'
     api project(':snacklib:data')
     api project(':snacklib:domain')
 
@@ -74,17 +75,6 @@ afterEvaluate {
                 groupId = 'com.jrodiz.snacks'
                 artifactId = 'snacklib-presentation'
                 version = '1.1.7'
-            }
-        }
-        // This section gets around the issue described here:
-        // https://discuss.gradle.org/t/maven-publish-plugin-generated-pom-making-dependency-scope-runtime/7494/3
-        publications.all {
-            pom.withXml {
-                asNode().dependencies.'*'.findAll() {
-                    it.scope.text() == 'runtime' && project.configurations.implementation.allDependencies.find { dep ->
-                        dep.name == it.artifactId.text()
-                    }
-                }.each { it.scope*.value = 'compile'}
             }
         }
     }
