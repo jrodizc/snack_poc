@@ -6,10 +6,11 @@ import androidx.navigation.findNavController
 import androidx.navigation.ui.AppBarConfiguration
 import androidx.navigation.ui.setupActionBarWithNavController
 import androidx.navigation.ui.setupWithNavController
+import com.example.simpleandroidlibrary.R
+import com.example.simpleandroidlibrary.databinding.ActivityMainBinding
 import com.google.android.material.bottomnavigation.BottomNavigationView
 import com.google.android.material.snackbar.Snackbar
-import com.jrodiz.core.GreetingFetcher
-import com.jrodiz.externalsnackpoc.databinding.ActivityMainBinding
+import com.jrodiz.snacklib.core.GreetingFetcher
 import javax.inject.Inject
 
 class MainViewModel @Inject constructor(

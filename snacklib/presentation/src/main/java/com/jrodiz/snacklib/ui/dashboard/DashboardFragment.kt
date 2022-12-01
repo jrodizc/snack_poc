@@ -6,10 +6,9 @@ import android.view.View
 import android.view.ViewGroup
 import android.widget.TextView
 import androidx.fragment.app.Fragment
-import androidx.lifecycle.ViewModelProvider
-import com.jrodiz.snacklib.databinding.FragmentDashboardBinding
 import com.jrodiz.snacklib.di.SnackLibPresentationComponent
 import com.jrodiz.snacklib.di.SnackLibPresentationComponentProvider
+import com.jrodiz.snacklib.presentation.databinding.FragmentDashboardBinding
 import javax.inject.Inject
 
 class DashboardFragment : Fragment() {

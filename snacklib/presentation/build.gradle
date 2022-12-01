@@ -32,6 +32,14 @@ android {
     buildFeatures {
         viewBinding true
     }
+
+    publishing {
+        singleVariant("release") {
+            withSourcesJar()
+            withJavadocJar()
+        }
+    }
+    namespace 'com.jrodiz.snacklib.presentation'
 }
 
 dependencies {
@@ -42,11 +50,6 @@ dependencies {
     androidTestImplementation 'androidx.test.ext:junit:1.1.4'
     androidTestImplementation 'androidx.test.espresso:espresso-core:3.5.0'
 
-    api project(':snacklib:core')
-    //implementation 'com.jrodiz.snacks:snacklib-core:1.0.0'
-    api project(':snacklib:data')
-    api project(':snacklib:domain')
-
     def daggerVersion = "2.41"
     implementation "com.google.dagger:dagger:$daggerVersion"
     kapt "com.google.dagger:dagger-compiler:$daggerVersion"
@@ -55,26 +58,15 @@ dependencies {
     kapt "com.google.dagger:dagger-android-processor:$daggerVersion"
 }
 
-afterEvaluate {
-    publishing {
-        publications {
-            // Creates a Maven publication called "release".
-            release(MavenPublication) {
-                // Applies the component for the release build variant.
+publishing {
+    publications {
+        release(MavenPublication) {
+            groupId = 'com.jrodiz.snacks'
+            artifactId = 'snacklib-presentation'
+            version = '1.2.0'
+
+            afterEvaluate {
                 from components.release
-
-                groupId = 'com.jrodiz.snacks'
-                artifactId = 'snacklib-presentation'
-                version = '1.1.7'
-            }
-            // Creates a Maven publication called “debug”.
-            debug(MavenPublication) {
-                // Applies the component for the debug build variant.
-                from components.debug
-
-                groupId = 'com.jrodiz.snacks'
-                artifactId = 'snacklib-presentation'
-                version = '1.1.7'
             }
         }
     }

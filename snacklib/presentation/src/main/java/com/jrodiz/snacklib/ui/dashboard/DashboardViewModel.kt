@@ -3,7 +3,7 @@ package com.jrodiz.snacklib.ui.dashboard
 import androidx.lifecycle.LiveData
 import androidx.lifecycle.MutableLiveData
 import androidx.lifecycle.ViewModel
-import com.jrodiz.core.GreetingFetcher
+import com.jrodiz.snacklib.core.GreetingFetcher
 import javax.inject.Inject
 
 class DashboardViewModel @Inject constructor(

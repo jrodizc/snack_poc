@@ -1,7 +1,5 @@
 package com.jrodiz.snacklib.di
 
-import com.jrodiz.data.di.SnackLibDataModule
-import com.jrodiz.domain.di.SnackLibDomainModule
 import com.jrodiz.snacklib.ui.dashboard.DashboardFragment
 import dagger.Module
 import dagger.Subcomponent
